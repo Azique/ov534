@@ -7,7 +7,7 @@ ln -s `find . -type d -name "linux-source-*"` linux
 
 cd /usr/src/linux/drivers/media/video/gspca
 mv ov534.c ov534.c.old
-cp ~/Desktop/ov534.c /usr/src/linux/drivers/media/video/gspca
+cp https://raw.github.com/Azique/ov534/master/ov534.c /usr/src/linux/drivers/media/video/gspca
 
 
 cd /usr/src
